@@ -1,4 +1,4 @@
-- hosts: "*"
+- hosts: pvenodes
   become: yes
   tasks:
     - name: apt
