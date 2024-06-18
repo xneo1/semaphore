@@ -4,4 +4,5 @@
     - name: apt
       apt:
         update_cache: yes
+      become_method: sudo
         upgrade: 'yes'
